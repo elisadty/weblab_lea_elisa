@@ -1,7 +1,7 @@
 # Système de gestion de bibliothèque (web programming)
 ## Présentation 
 Ce projet est organisé selon une architecture n-tiers : frontend, buisiness layer (backend), data layer.
-Cette architecture permet de séparer clairement des responsabilités ce qui est plus facile pour debugger en cas de problème, contrairement à un unique bloc de code.
+Cette architecture permet de séparer clairement des responsabilités ce qui est plus facile pour debugger en cas de problème, contrairement à un unique bloc de code. 
 
 ### Frontend (Présentation)
 - Technologies : HTML, CSS, JavaScript
@@ -28,7 +28,7 @@ La communication avec la base se fait via un ORM ou des requêtes SQL dans le ba
 Afin d'acceder au site/ lancer le projet, il faut run le code dans deux terminaux en même temps :
 le 1er pour lancer uvicorn :
 ```bash
-(venv) PS C:\Users\Elisa\OneDrive\Documents\EPF\webgit\frontend> python .\server.py
+(venv) PS C:\Users\Elisa\OneDrive\Documents\EPF\webgit> uvicorn src.main:app --reload
 ````
 et le 2ème pour accéder au site :
 
