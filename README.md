@@ -1,6 +1,6 @@
 # Projet web programming
 
-lien des tps -> https://acherfi.com/n-tiers/
+LIEN TP -> https://acherfi.com/n-tiers/
 
 Commandes pour les tests :
 pytest tests/services/ -v
