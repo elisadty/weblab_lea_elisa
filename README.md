@@ -4,28 +4,32 @@
 
 Afin d'acceder au site/ lancer le projet, il faut run le code dans deux terminaux en même temps :
 le 1er pour lancer uvicorn :
-
 ```bash
-(venv) PS C:\Users\Elisa\OneDrive\Documents\EPF\webgit> uvicorn src.main:app --reload
-```bash
-
+(venv) PS C:\Users\Elisa\OneDrive\Documents\EPF\webgit\frontend> python .\server.py
+````
 et le 2ème pour accéder au site :
 
 ```bash
 (venv) PS C:\Users\Elisa\OneDrive\Documents\EPF\webgit\frontend> python .\server.py
-```bash
+```
 
 -> ouvrez ensuite votre navigateur à l'adresse :
-```bash http://localhost:5000 ```bash
+```bash 
+http://localhost:5000
+```
 
 Pour voir les bug dans le devtools (sur le site), il est possible de faire un f12.
 
 
 -------------------------------------------------------------------------------------------------
 Pour lancer les units test :
+``` bash
 pytest tests/services/ -v
+```
 
 Pour tester un par un :
+```bash
 pytest tests/services/test_books.py -v
 pytest tests/services/test_users.py -v
 pytest tests/services/test_loans.py -v
+```
