@@ -36,7 +36,7 @@ et le 2ème pour accéder au site :
 (venv) PS C:\Users\Elisa\OneDrive\Documents\EPF\webgit\frontend> python .\server.py
 ```
 
--> ouvrez ensuite votre navigateur à l'adresse :
+Ouvrez ensuite votre navigateur à l'adresse :
 ```bash 
 http://localhost:5000
 ```
