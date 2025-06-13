@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8daacbb1-323e-4dc1-a9ab-4e21dbededf5)# Construction d'un site de système de gestion de bibliothèque (web programming)
+# Système de gestion de bibliothèque (web programming)
 ## Présentation 
 Ce projet est organisé selon une architecture n-tiers : frontend, buisiness layer (backend), data layer.
 Cette architecture permet de séparer clairement des responsabilités ce qui est plus facile pour debugger en cas de problème, contrairement à un unique bloc de code.
